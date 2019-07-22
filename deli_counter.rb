@@ -7,7 +7,6 @@ def line(arg)
   aline.push("#{index}. #{name}")
   end
   puts aline.join(" ")
-  
   else
     puts "The line is currently empty."
   end
@@ -22,7 +21,6 @@ def now_serving(arg)
   if arg.length>0
   puts "Currently serving #{arg[0]}."
   arg.shift
-  
   else
     puts "There is nobody waiting to be served!"
   end
